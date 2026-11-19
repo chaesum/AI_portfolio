@@ -1,0 +1,812 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>HONG GILDONG — Portfolio</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "dark-canvas": "#1D211B", "tertiary-container": "#440900", "surface-variant": "#e4e2dd", "inverse-on-surface": "#f2f1ec", "dark-canvas-surface": "#252B23", "on-primary-fixed": "#191d17", "inverse-surface": "#30312e", "surface-container-highest": "#e4e2dd", "on-error": "#ffffff", "slate-blue": "#596B85", "error": "#ba1a1a", "surface-tint": "#5c6058", "secondary-fixed-dim": "#c4cb9c", "secondary-fixed": "#e0e7b6", "accent-rust": "#BA5B43", "tertiary": "#190200", "surface-container": "#f0eee9", "on-secondary-fixed-variant": "#434a26", "primary-fixed-dim": "#c4c8be", "on-primary-fixed-variant": "#444841", "primary-fixed": "#e0e4da", "on-secondary-fixed": "#181e01", "on-secondary": "#ffffff", "dark-text-muted": "#A29F98", "primary-container": "#1d211b", "dark-border": "#2E352B", "surface-dim": "#dcdad5", "background": "#fbf9f4", "on-secondary-container": "#5f663f", "on-primary": "#ffffff", "primary": "#060905", "on-tertiary-fixed-variant": "#7c2d19", "surface-bright": "#fbf9f4", "secondary-container": "#dde4b3", "on-primary-container": "#858980", "border-hairline": "#D8D6CF", "on-tertiary-fixed": "#3c0700", "outline-variant": "#c5c7c0", "text-secondary": "#77746E", "surface-container-low": "#f5f3ee", "secondary": "#5b623b", "inverse-primary": "#c4c8be", "on-background": "#1b1c19", "on-error-container": "#93000a", "on-surface-variant": "#454842", "on-surface": "#1b1c19", "surface-container-lowest": "#ffffff", "on-tertiary-container": "#cf6b52", "tertiary-fixed-dim": "#ffb4a2", "outline": "#757872", "surface-container-high": "#eae8e3", "tertiary-fixed": "#ffdad2", "on-tertiary": "#ffffff", "surface": "#fbf9f4", "error-container": "#ffdad6", "text-primary": "#171717" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.25rem", "space-xl": "4rem", "space-2xl": "7rem", "gutter-mobile": "1rem", "space-lg": "2rem", "space-sm": "0.5rem", "margin-mobile": "1.25rem", "margin": "4rem", "space-md": "1rem", "gutter": "1.5rem" }, "fontFamily": { "headline-xl": [ "Space Grotesk" ], "title-editorial": [ "Space Grotesk" ], "headline-md": [ "Space Grotesk" ], "headline-xl-mobile": [ "Space Grotesk" ], "body-md": [ "Inter" ], "display-hero": [ "Space Grotesk" ], "body-lg": [ "Inter" ], "body-sm": [ "Inter" ], "headline-lg-mobile": [ "Space Grotesk" ], "label-caps": [ "Space Grotesk" ], "label-meta": [ "Space Grotesk" ], "display-hero-mobile": [ "Space Grotesk" ], "headline-lg": [ "Space Grotesk" ] }, "fontSize": { "headline-xl": [ "72px", { "lineHeight": "76px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "title-editorial": [ "20px", { "lineHeight": "26px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "headline-md": [ "28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-xl-mobile": [ "40px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "25px", "letterSpacing": "0em", "fontWeight": "400" } ], "display-hero": [ "128px", { "lineHeight": "112px", "letterSpacing": "-0.04em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "body-sm": [ "13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "headline-lg-mobile": [ "32px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-caps": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.14em", "fontWeight": "700" } ], "label-meta": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.05em", "fontWeight": "500" } ], "display-hero-mobile": [ "56px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "headline-lg": [ "48px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-low/85 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin-mobile md:px-margin flex items-center justify-between"><div class="flex items-center gap-6"><a class="flex items-baseline gap-2 group" data-path="home" href="#"><span class="font-headline-md text-headline-md font-bold tracking-tight text-primary">HONG GILDONG</span></a><div class="hidden xl:flex items-center gap-2 pl-6"><span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span></div></div><nav class="hidden lg:flex items-center gap-10" data-active-classes="text-primary font-bold after:w-full"><a aria-current="page" class="relative py-1 uppercase transition-colors tracking-widest text-primary font-bold after:w-full" data-path="home" href="#">Home</a><a class="relative py-1 font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors tracking-widest" data-path="works" href="#">Works</a><a class="relative py-1 font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors tracking-widest" data-path="about" href="#">About</a><a class="relative py-1 font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors tracking-widest" data-path="contact" href="#">Contact</a></nav></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full text-on-surface">
+<!-- ============================================================ -->
+<!-- 1. HERO SECTION (#home)                                      -->
+<!-- ============================================================ -->
+<section class="relative w-full min-h-[92vh] flex flex-col justify-between px-margin-mobile md:px-margin pt-space-xl pb-space-lg overflow-hidden bg-surface-container-low" id="home">
+<!-- Atmospheric Visual Underlay -->
+<div class="absolute inset-0 z-0 opacity-25 mix-blend-multiply pointer-events-none">
+<div class="w-full h-full bg-cover bg-center" data-alt="Cinematic atmospheric mountain dawn landscape with heavy misty fog, muted olive and charcoal hues, serene and minimalist architectural mood, film grain texture, soft diffusion light, editorial monograph photography" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuC_F-0Ax7jqnvAq4mxJFCwtol5CuSvKMOgEIdxlpFB8-HZ8vwVoLOn0JyKmR9olTvyL72l-MRyiTLvmjsHATumuMIQSgReimvp0RPIGmdlR-EFz4fltEe738KpIEUbL-wTdFuXmTkqMu5GSQoCNVQ9Y9kH8b9BvJOjxP7ZyyY0E28pI7YZpvaHKT0UDAXOBS2_5WfM5pkntH46CIC9UkGcXuNeDcwgs7b36EyvLf9I&quot;);">
+</div>
+</div>
+<!-- Top Meta Row -->
+<div class="relative z-10 flex flex-wrap items-center justify-between gap-4 pt-4 border-b border-border-hairline pb-4">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-caps text-label-caps uppercase text-text-secondary tracking-widest">
+          SEOUL • CREATIVE DIRECTION • EDITION 2026
+        </span>
+</div>
+<div class="font-label-meta text-label-meta uppercase tracking-widest text-primary font-semibold">
+        [ HGD • PORTFOLIO ARCHIVE ]
+      </div>
+</div>
+<!-- Monumental Hero Statement -->
+<div class="relative z-10 py-space-xl md:py-space-2xl my-auto">
+<div class="max-w-5xl">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary mb-4 block">
+          Brand • Motion • Visual Storyteller
+        </span>
+<h1 class="font-display-hero text-headline-xl md:text-display-hero font-bold tracking-tighter uppercase text-primary leading-none">
+          HONG GIL DONG
+        </h1>
+<div class="mt-4 flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-6">
+<p class="font-headline-md text-headline-md tracking-tight text-on-surface-variant font-medium">
+            홍길동 — BRAND &amp; VISUAL DESIGNER
+          </p>
+<span class="hidden sm:inline font-title-editorial text-title-editorial text-secondary">/</span>
+<p class="font-label-meta text-label-meta uppercase tracking-widest text-text-secondary">
+            PORTFOLIO 2026 ARCHIVE
+          </p>
+</div>
+</div>
+</div>
+<!-- Bottom Indicator -->
+<div class="relative z-10 flex items-end justify-between pt-6 border-t border-border-hairline">
+<div class="flex items-center gap-4">
+<div class="w-8 h-px bg-primary"></div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary">
+          SCROLL TO EXPLORE ↓
+        </span>
+</div>
+<div class="text-right">
+<span class="font-label-meta text-label-meta text-text-secondary block">
+          37.5665° N • 126.9780° E
+        </span>
+</div>
+</div>
+</section>
+<!-- ============================================================ -->
+<!-- 2. INTRODUCTION & VISION SECTION (#vision)                  -->
+<!-- ============================================================ -->
+<section class="w-full px-margin-mobile md:px-margin py-space-2xl bg-surface" id="vision">
+<!-- Eyebrow & Asymmetric Intro Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start pb-space-2xl border-b border-border-hairline">
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">01 • INTRODUCTION</span>
+<div class="h-px w-12 bg-secondary"></div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary">VISUAL STORYTELLER</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl font-bold tracking-tight text-primary uppercase leading-[1.05]">
+          I CREATE<br>MEANINGFUL<br>VISUAL STORIES.
+        </h2>
+<div class="space-y-4 pt-4 max-w-xl">
+<p class="font-body-lg text-body-lg text-primary font-medium leading-relaxed">
+            장면을 연결해 가치 있는 이야기를 짓고,<br>
+            브랜드의 본질적인 메시지를 독창적인 감각과 움직임으로 전달합니다.
+          </p>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            기획의 깊은 의도를 통찰하여 브랜드와 사람을 잇는 시각적 경험을 설계합니다. 표면적인 그래픽을 넘어, 브랜드를 둘러싼 철학과 시스템이 하나의 완성도 높은 서사로 작동하도록 디렉팅합니다.
+          </p>
+</div>
+</div>
+<!-- Artistic Landscape Frame -->
+<div class="lg:col-span-5 flex flex-col gap-3">
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden group">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist modern concrete gallery interior with pure architectural geometry, shafts of sunlight cutting through darkness, muted slate olive palette, clean editorial monograph composition, quiet museum aesthetic" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBcFVebJn_5Yph_GcHWr8e0hADbfinFYtzC7-tbnkof6YDn2g4P9quCUMjFGJ-4uvPlWIxOteEgdigZP7WmFyPerif-nDF_SPnpGLnue-f4lO8I8wy8qfzf2mkkNsTK9CBIFYSf65MEbgRcsp2MlzsmzBasDkTtstbrrl8-uYqsmVjwJhJ-Q2olv59CH4RYVuxxsIWej8FZRqW0y6mcc_rl-VBcMyCj8Jmfl2I-MQM&quot;);">
+</div>
+<div class="absolute inset-0 bg-primary/10 transition-opacity duration-300 group-hover:opacity-0"></div>
+<div class="absolute bottom-4 left-4 bg-surface-container-low/90 backdrop-blur-sm px-3 py-1.5 border border-border-hairline">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-primary">Seoul Atelier • 2026</span>
+</div>
+</div>
+<div class="flex justify-between items-baseline pt-2">
+<span class="font-label-meta text-label-meta uppercase tracking-widest text-text-secondary">
+            [ FIGURE 01.1 ]
+          </span>
+<span class="font-label-caps text-label-caps italic text-primary">
+            "More than just a visual."
+          </span>
+</div>
+</div>
+</div>
+<!-- MY VISION: 3 Column Monolith Cards -->
+<div class="pt-space-xl">
+<div class="flex items-center justify-between pb-space-lg">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary">CORE PILLARS</span>
+<h3 class="font-headline-md text-headline-md tracking-tight font-bold text-primary">MY VISION</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-b border-border-hairline divide-y md:divide-y-0 md:divide-x divide-border-hairline">
+<!-- Card 01 -->
+<div class="p-8 md:p-10 flex flex-col justify-between hover:bg-surface-container-low transition-colors duration-300">
+<div>
+<div class="flex items-center justify-between pb-8">
+<span class="font-headline-md text-headline-md font-bold text-secondary">01</span>
+<span class="font-headline-md text-headline-md text-primary">∗</span>
+</div>
+<h4 class="font-headline-md text-headline-md font-bold tracking-tight text-primary uppercase pb-4">
+              CREATE
+            </h4>
+<p class="font-label-caps text-label-caps uppercase tracking-widest text-secondary pb-3">
+              Discovery &amp; Core Aesthetics
+            </p>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+              새로운 시각으로 브랜드의 잠재된 본질과 독창적인 가능성을 발견하고, 감도 높은 조형 언어로 형상화합니다.
+            </p>
+</div>
+<div class="pt-8 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-caps text-label-caps text-text-secondary uppercase">Exploration • Form</span>
+</div>
+</div>
+<!-- Card 02 -->
+<div class="p-8 md:p-10 flex flex-col justify-between hover:bg-surface-container-low transition-colors duration-300">
+<div>
+<div class="flex items-center justify-between pb-8">
+<span class="font-headline-md text-headline-md font-bold text-secondary">02</span>
+<span class="font-headline-md text-headline-md text-primary">↗</span>
+</div>
+<h4 class="font-headline-md text-headline-md font-bold tracking-tight text-primary uppercase pb-4">
+              CONNECT
+            </h4>
+<p class="font-label-caps text-label-caps uppercase tracking-widest text-secondary pb-3">
+              Resonance &amp; Kinetic Flow
+            </p>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+              정지된 프레임과 유기적 움직임을 정교하게 연결하여, 관객의 시선을 머물게 하고 깊은 정서적 공감을 이끌어냅니다.
+            </p>
+</div>
+<div class="pt-8 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-caps text-label-caps text-text-secondary uppercase">Narrative • Motion</span>
+</div>
+</div>
+<!-- Card 03 -->
+<div class="p-8 md:p-10 flex flex-col justify-between hover:bg-surface-container-low transition-colors duration-300">
+<div>
+<div class="flex items-center justify-between pb-8">
+<span class="font-headline-md text-headline-md font-bold text-secondary">03</span>
+<span class="font-headline-md text-headline-md text-primary">✦</span>
+</div>
+<h4 class="font-headline-md text-headline-md font-bold tracking-tight text-primary uppercase pb-4">
+              GROW
+            </h4>
+<p class="font-label-caps text-label-caps uppercase tracking-widest text-secondary pb-3">
+              Evolution &amp; Lasting Impact
+            </p>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+              단발성 시각 효과에 머무르지 않고, 브랜드의 지속 가능한 시스템을 구축하여 장기적인 비즈니스 임팩트를 견인합니다.
+            </p>
+</div>
+<div class="pt-8 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-caps text-label-caps text-text-secondary uppercase">Ecosystem • Scale</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================ -->
+<!-- 3. SELECTED WORKS SECTION (#works)                          -->
+<!-- ============================================================ -->
+<section class="w-full px-margin-mobile md:px-margin py-space-2xl bg-surface-container-low" id="works">
+<!-- Section Header & Filter Pills -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-8 pb-space-xl border-b border-border-hairline">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary block mb-2">02 • SELECTED PROJECTS</span>
+<h2 class="font-headline-xl text-headline-xl font-bold tracking-tight uppercase text-primary">
+          WORKS.
+        </h2>
+</div>
+<!-- Filter Controls -->
+<div class="flex flex-wrap gap-2" id="filter-container">
+<button class="filter-btn active px-5 py-2 rounded-full font-label-caps text-label-caps uppercase tracking-wider bg-primary text-on-primary transition-all duration-200" data-filter="all">
+          ALL (06)
+        </button>
+<button class="filter-btn px-5 py-2 rounded-full font-label-caps text-label-caps uppercase tracking-wider bg-surface border border-border-hairline text-on-surface hover:border-primary transition-all duration-200" data-filter="branding">
+          BRANDING
+        </button>
+<button class="filter-btn px-5 py-2 rounded-full font-label-caps text-label-caps uppercase tracking-wider bg-surface border border-border-hairline text-on-surface hover:border-primary transition-all duration-200" data-filter="motion">
+          MOTION
+        </button>
+<button class="filter-btn px-5 py-2 rounded-full font-label-caps text-label-caps uppercase tracking-wider bg-surface border border-border-hairline text-on-surface hover:border-primary transition-all duration-200" data-filter="video">
+          VIDEO
+        </button>
+<button class="filter-btn px-5 py-2 rounded-full font-label-caps text-label-caps uppercase tracking-wider bg-surface border border-border-hairline text-on-surface hover:border-primary transition-all duration-200" data-filter="editorial">
+          EDITORIAL
+        </button>
+</div>
+</div>
+<!-- FEATURED PROJECTS (2 Widescreen Showcases) -->
+<div class="pt-space-xl space-y-16">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary">FEATURED SHOWCASES</span>
+<span class="font-label-meta text-label-meta text-secondary uppercase font-semibold">HIGHLIGHTS [02]</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- Featured Card 1 -->
+<article class="project-card group cursor-pointer flex flex-col" data-category="motion video branding" onclick="openProjectModal('lumen')">
+<div class="relative w-full aspect-[16/10] bg-surface-container overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Cinematic brand film still showing glowing neon typography, sleek futuristic geometry, deep dark olive and amber light spill, minimalist high-fashion tech editorial aesthetic, pristine visual sharpness" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCk3pTyJRbbkbMPlo08mGTSMB5aAfGf2xI7dPFO-T-NBKpzV3fach0cGqSEb9McPyvFqMpbv3oJZX_9HAobca4OfyM9CTNae1H7WC7BSUYPHxbhgKkI5BQe1KgfTVL-Akrcf0D8tNEiRnRiNjd7A0DyyQpFSHMNierDYejQsU-B2fr4Elk7ksJXGs5t8PhVnigqtPSa8FhPGEnNXLfR-FVXcReM0ZXHBxKZRnhZ4_E&quot;);">
+</div>
+<!-- Overlay Button -->
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<span class="w-16 h-16 rounded-full bg-surface-bright/95 backdrop-blur-md flex items-center justify-center text-primary shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<span class="material-symbols-outlined text-[28px]">play_arrow</span>
+</span>
+</div>
+<div class="absolute top-4 left-4 bg-primary text-on-primary px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest">
+              2026.04 • BRAND FILM
+            </div>
+</div>
+<div class="pt-5 flex items-start justify-between border-b border-border-hairline pb-4">
+<div>
+<h3 class="font-headline-md text-headline-md font-bold tracking-tight text-primary group-hover:text-secondary transition-colors">
+                2026 LUMEN 브랜드 필름 &amp; 아이덴티티
+              </h3>
+<p class="font-body-sm text-body-sm text-text-secondary mt-1">
+                Visual Architecture, Motion Graphics &amp; Identity System
+              </p>
+</div>
+<button class="inline-flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-wider text-primary group-hover:text-secondary pt-1">
+              VIEW MORE <span>→</span>
+</button>
+</div>
+</article>
+<!-- Featured Card 2 -->
+<article class="project-card group cursor-pointer flex flex-col" data-category="branding editorial" onclick="openProjectModal('atelier')">
+<div class="relative w-full aspect-[16/10] bg-surface-container overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="High-end stationery mockup for Atelier Berg, custom typography embossed on textured warm parchment paper, olive green envelopes, brass paperweights, elegant minimalist Swiss layout design, soft natural side lighting" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCURAV48sAwkk6_D7R9ovvftBQYWRi6iSHmtPN-lMrHKExU_KraXC827is99y75ci-YwI7dDpDpXS8ug8PwJ2aYNWZvu3b92Ru1-J-839pMVby7bkcG6xjL1GAQ-SDWtKE2KUsQteAGlM37HGA7OAsp3-4QsNIVF0mSKRHx7wxLVK23UhkOAh0vkr5ooiLAXh0EXAEAoK2QmtHhXX6HAe8uTFFRTz1T6pTMTO9N8kk&quot;);">
+</div>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<span class="w-16 h-16 rounded-full bg-surface-bright/95 backdrop-blur-md flex items-center justify-center text-primary shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<span class="material-symbols-outlined text-[28px]">visibility</span>
+</span>
+</div>
+<div class="absolute top-4 left-4 bg-primary text-on-primary px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest">
+              2026.02 • IDENTITY DESIGN
+            </div>
+</div>
+<div class="pt-5 flex items-start justify-between border-b border-border-hairline pb-4">
+<div>
+<h3 class="font-headline-md text-headline-md font-bold tracking-tight text-primary group-hover:text-secondary transition-colors">
+                아틀리에 베르그 (Atelier Berg) 시각 브랜딩
+              </h3>
+<p class="font-body-sm text-body-sm text-text-secondary mt-1">
+                Spatial Narrative, Custom Logotype &amp; Brand Book
+              </p>
+</div>
+<button class="inline-flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-wider text-primary group-hover:text-secondary pt-1">
+              VIEW MORE <span>→</span>
+</button>
+</div>
+</article>
+</div>
+</div>
+<!-- OTHER PROJECTS (Archive 4-Grid Layout) -->
+<div class="pt-space-2xl">
+<div class="flex items-center justify-between pb-8">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary block mb-1">ARCHIVE COLLECTION</span>
+<h3 class="font-headline-md text-headline-md font-bold text-primary tracking-tight">
+            SELECTED ARCHIVES (04)
+          </h3>
+</div>
+<span class="font-label-meta text-label-meta uppercase tracking-widest text-text-secondary">
+          INDEX 01 — 04
+        </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Item 01 -->
+<article class="project-card group cursor-pointer bg-surface p-4 border border-border-hairline hover:border-primary transition-all duration-300 flex flex-col justify-between" data-category="editorial" onclick="openProjectModal('joseon')">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Editorial book cover photography of historical Korean royal court records, dark royal blue binding with gold hanja calligraphy typography, architectural grid book design, museum quality display" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCrGVO_7l7myZX3kNz9ZSlFaYr1cyjzjHV-WjzF_6V_TVvl_CAFY02aO0EVAMYjEkmYe-937Ydc8xbkjOqZ2BiP3lqLKoDR8UYFb5-nes-YacXa_ZREaSiJ-5fzaTKSwed0YY4f7H6Onlk5Y2x_kEIdDyHSWXWRqXUexFaMTE82FXRPNxfsAwr0NRoJ04sykEvQBAFgQUYheU_BsMX661HxF7O5NGizV9uZst24mDA&quot;);">
+</div>
+<span class="absolute top-2 left-2 bg-surface/90 text-primary font-label-caps text-label-caps px-2 py-0.5 uppercase">
+                2025.11
+              </span>
+</div>
+<p class="font-label-caps text-label-caps uppercase text-secondary tracking-wider mb-1">도서 • 편집 디렉션</p>
+<h4 class="font-title-editorial text-title-editorial font-bold text-primary tracking-tight group-hover:text-secondary transition-colors">
+              조선왕조 궁중의례 아카이브 북
+            </h4>
+</div>
+<div class="pt-4 border-t border-border-hairline mt-4 flex items-center justify-between">
+<span class="font-label-meta text-label-meta text-text-secondary">Editorial Grid</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_outward</span>
+</div>
+</article>
+<!-- Item 02 (The Referenced Screen Project) -->
+<article class="project-card group cursor-pointer bg-surface p-4 border border-border-hairline hover:border-primary transition-all duration-300 flex flex-col justify-between" data-category="branding editorial" onclick="openProjectModal('excalibur')">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Monograph series book set on studio background, deep cobalt blue covers with white Korean typography and vintage territory maps, minimal editorial book spine details, hard cover monograph" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDUwrZm4q7_LPhClAK2AF5ZMWrsKg45PwaSC5poW3o0skj4QvOJ91Hs96S8jhjSLni3QfPDak1mi1DtihkfoEvkZDUj0nE5PD3z618V6Itguc6YKuD8tcGIz8CcogWjzJ_GTeZkh9W3SOZxOD35LozkzrRtT0W6b9OBcbXMFODZpkBwpc-4-EmBzlrgf-8v0wxK_h4pkDRBdREeN3HzBAIuJDLPfi0UCm4VH80WLNo&quot;);">
+</div>
+<span class="absolute top-2 left-2 bg-secondary text-on-secondary font-label-caps text-label-caps px-2 py-0.5 uppercase">
+                FEATURED
+              </span>
+</div>
+<p class="font-label-caps text-label-caps uppercase text-secondary tracking-wider mb-1">비주얼 시스템 • 시리즈 책</p>
+<h4 class="font-title-editorial text-title-editorial font-bold text-primary tracking-tight group-hover:text-secondary transition-colors">
+              2027 EXCALIBUR 브랜드 리뉴얼
+            </h4>
+</div>
+<div class="pt-4 border-t border-border-hairline mt-4 flex items-center justify-between">
+<span class="font-label-meta text-label-meta text-text-secondary">Series • Layout</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_outward</span>
+</div>
+</article>
+<!-- Item 03 -->
+<article class="project-card group cursor-pointer bg-surface p-4 border border-border-hairline hover:border-primary transition-all duration-300 flex flex-col justify-between" data-category="editorial" onclick="openProjectModal('space')">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Contemporary architecture monograph open spread showing clean concrete structures, black and white minimalist photographs, asymmetrical editorial magazine column layout with fine hairline typography" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuB02AGWqTfItD8GcpHoENGAD-tx-gR8PrOONtGajuwMt4NoA7TDK4JIBKAPY8GH4UwElfy1Jm4Dt6yBMdaTxVnC6ZmQC7O_7RRpT3fsR6KEr3U6Y-c34ZifBeAO7sHIJSXCuVby60odd7Meekg8mcotWVN907rQBKzcqJQ79IhL6CqxoyZ9eZEv3qkACQufeG2JsT20fNYjj65y8gKpilkqASatgrB7ERoR-2mbkcE&quot;);">
+</div>
+<span class="absolute top-2 left-2 bg-surface/90 text-primary font-label-caps text-label-caps px-2 py-0.5 uppercase">
+                2025.05
+              </span>
+</div>
+<p class="font-label-caps text-label-caps uppercase text-secondary tracking-wider mb-1">건축 매거진 • 에디토리얼</p>
+<h4 class="font-title-editorial text-title-editorial font-bold text-primary tracking-tight group-hover:text-secondary transition-colors">
+              공간과 형태: 건축 에디토리얼
+            </h4>
+</div>
+<div class="pt-4 border-t border-border-hairline mt-4 flex items-center justify-between">
+<span class="font-label-meta text-label-meta text-text-secondary">Spatial Design</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_outward</span>
+</div>
+</article>
+<!-- Item 04 -->
+<article class="project-card group cursor-pointer bg-surface p-4 border border-border-hairline hover:border-primary transition-all duration-300 flex flex-col justify-between" data-category="motion branding" onclick="openProjectModal('kinetic')">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Experimental kinetic typography poster with liquid chrome letters, warped geometric grids, deep olive green gradient backdrop, high contrast graphic design exhibition aesthetics" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDKHAgI05LTZAHdlrFrAU1GIJ9Edsi84jIGNzcObPFZynBCBIjDpDotVoaLEX5EcguNp_BmByCCe8WDn_WgwOJZJyUnqBYQFitD0ttqERAYFxWmZYmo78GsZigNIYr-iFE7b7NF7kFnCUtBXcXSvnpM-wSHw31j4ixbxgBC977LNTC4AX5yCDtaw1Md21sv-jNaNv18J1d7IUL44e66E-0ICxLlqYLrNWoqXaZXQVo&quot;);">
+</div>
+<span class="absolute top-2 left-2 bg-surface/90 text-primary font-label-caps text-label-caps px-2 py-0.5 uppercase">
+                2025.03
+              </span>
+</div>
+<p class="font-label-caps text-label-caps uppercase text-secondary tracking-wider mb-1">그래픽 아트 • 모션 포스터</p>
+<h4 class="font-title-editorial text-title-editorial font-bold text-primary tracking-tight group-hover:text-secondary transition-colors">
+              KINETIC RESONANCE 포스터
+            </h4>
+</div>
+<div class="pt-4 border-t border-border-hairline mt-4 flex items-center justify-between">
+<span class="font-label-meta text-label-meta text-text-secondary">Kinetic Typography</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_outward</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- ============================================================ -->
+<!-- 4. ABOUT ME SECTION (#about)                                -->
+<!-- ============================================================ -->
+<section class="w-full px-margin-mobile md:px-margin py-space-2xl bg-surface border-t border-border-hairline" id="about">
+<!-- Header Row -->
+<div class="flex items-center gap-3 pb-6">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">03 • BIOGRAPHY</span>
+<div class="h-px w-12 bg-secondary"></div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary">GET TO KNOW ME</span>
+</div>
+<!-- Asymmetric About Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+<!-- Left Column: Portrait & Quick Meta -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<div class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" data-alt="Editorial portrait of Korean creative art director Hong Gil Dong in a minimalist studio filled with architectural models and art books, natural window lighting, wearing tailored dark charcoal blazer, thoughtful expression, muted warm tones" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBtJej8wZluCL78M5WiM21_taNZcf6AWgdMVa6XeWzCnCTAOPoQ34VsgIyvmUZtG-MHhCKNPBNhR5xKJAa2Lzgbou5DG-LPGWjyagkRqbAzHTS7UBxHGNNd0iLPEAgYOO98BiJQRcLer7hbACbhoSBS5tTZAb4KMefK6b9RqyaVHFOYfA2q5RCKVYAD-B0gQHvdek_U96OG5FUoHAlVrrQouwfBSu9ZtuxGkKqPKrE&quot;);">
+</div>
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent p-6 text-on-primary">
+<p class="font-headline-md text-headline-md font-bold tracking-tight">홍길동 (Hong Gil Dong)</p>
+<p class="font-label-meta text-label-meta uppercase tracking-widest text-secondary-fixed opacity-90 mt-1">
+              Lead Visual &amp; Motion Director
+            </p>
+</div>
+</div>
+<div class="p-6 bg-surface-container-low border border-border-hairline space-y-4">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary block">
+            CORE MOTTO
+          </span>
+<p class="font-title-editorial text-title-editorial text-primary font-medium italic">
+            “장면을 연결해 브랜드의 미래를 그립니다.”
+          </p>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+            단순히 시각적인 결과물에 그치지 않고, 클라이언트의 비전이 살아 숨 쉬는 구조적 시각 언어를 설계합니다.
+          </p>
+</div>
+</div>
+<!-- Right Column: Narrative, Capabilities, Timeline -->
+<div class="lg:col-span-7 flex flex-col justify-between space-y-12">
+<!-- Big Narrative -->
+<div>
+<h2 class="font-headline-xl text-headline-xl font-bold tracking-tight uppercase text-primary leading-tight">
+            I SHAPE STORIES.
+          </h2>
+<div class="mt-6 space-y-4">
+<h3 class="font-headline-md text-headline-md font-semibold text-primary">
+              Who Tells Your Story? / 누가 당신의 이야기를 전하는가?
+            </h3>
+<p class="font-body-lg text-body-lg text-text-secondary leading-relaxed">
+              단순한 시각적 아름다움을 넘어, 본질을 꿰뚫는 디자인 언어로 사람의 마음을 움직이고 브랜드의 가치를 확장합니다. 복잡한 문제를 명료한 형태로 정제하고, 절제된 리듬과 감각적인 모션을 결합하여 독보적인 브랜딩을 완성합니다.
+            </p>
+</div>
+<!-- Tools & Skills Pills -->
+<div class="pt-8">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-text-secondary block mb-3">
+              TOOLS &amp; PROFICIENCY
+            </span>
+<div class="flex flex-wrap gap-2">
+<span class="px-4 py-2 bg-surface-container text-primary font-label-caps text-label-caps tracking-wider rounded-full border border-border-hairline">FIGMA</span>
+<span class="px-4 py-2 bg-surface-container text-primary font-label-caps text-label-caps tracking-wider rounded-full border border-border-hairline">ILLUSTRATOR</span>
+<span class="px-4 py-2 bg-surface-container text-primary font-label-caps text-label-caps tracking-wider rounded-full border border-border-hairline">PHOTOSHOP</span>
+<span class="px-4 py-2 bg-surface-container text-primary font-label-caps text-label-caps tracking-wider rounded-full border border-border-hairline">AFTER EFFECTS</span>
+<span class="px-4 py-2 bg-surface-container text-primary font-label-caps text-label-caps tracking-wider rounded-full border border-border-hairline">PREMIERE PRO</span>
+<span class="px-4 py-2 bg-surface-container text-primary font-label-caps text-label-caps tracking-wider rounded-full border border-border-hairline">CINEMA 4D</span>
+</div>
+</div>
+</div>
+<!-- Ability Bars -->
+<div class="p-8 bg-surface-container-low border border-border-hairline space-y-6">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary font-bold">DISCIPLINE METRICS</span>
+<span class="font-label-meta text-label-meta text-text-secondary uppercase">2026 BENCHMARK</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6">
+<!-- Metric 1 -->
+<div class="space-y-2">
+<div class="flex justify-between font-label-meta text-label-meta uppercase tracking-wider text-primary">
+<span>Brand Identity</span>
+<span class="font-bold">95%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary" style="width: 95%"></div>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="space-y-2">
+<div class="flex justify-between font-label-meta text-label-meta uppercase tracking-wider text-primary">
+<span>Motion Graphics</span>
+<span class="font-bold">90%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-high overflow-hidden">
+<div class="h-full bg-secondary" style="width: 90%"></div>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="space-y-2">
+<div class="flex justify-between font-label-meta text-label-meta uppercase tracking-wider text-primary">
+<span>Typography &amp; Editorial</span>
+<span class="font-bold">92%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary" style="width: 92%"></div>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="space-y-2">
+<div class="flex justify-between font-label-meta text-label-meta uppercase tracking-wider text-primary">
+<span>Art Direction</span>
+<span class="font-bold">88%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-high overflow-hidden">
+<div class="h-full bg-secondary" style="width: 88%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- 2-Column Experience & Certification Timeline -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+<!-- Experience Track -->
+<div class="space-y-4">
+<h4 class="font-label-caps text-label-caps uppercase tracking-widest text-primary font-bold pb-2 border-b border-border-hairline">
+              EXPERIENCE
+            </h4>
+<ul class="space-y-4 font-body-sm text-body-sm">
+<li class="space-y-1">
+<div class="flex justify-between text-secondary font-label-meta text-label-meta">
+<span>2024.03 – PRESENT</span>
+<span class="text-text-secondary">SEOUL</span>
+</div>
+<p class="font-bold text-primary">스튜디오 에이치 (Studio H)</p>
+<p class="text-text-secondary">리드 비주얼 &amp; 브랜드 디자이너</p>
+</li>
+<li class="space-y-1 pt-2 border-t border-border-hairline/50">
+<div class="flex justify-between text-secondary font-label-meta text-label-meta">
+<span>2021.06 – 2024.02</span>
+<span class="text-text-secondary">SEOUL</span>
+</div>
+<p class="font-bold text-primary">(주)크리에이티브랩</p>
+<p class="text-text-secondary">모션 &amp; 브랜드 디자이너</p>
+</li>
+<li class="space-y-1 pt-2 border-t border-border-hairline/50">
+<div class="flex justify-between text-secondary font-label-meta text-label-meta">
+<span>2019.03 – 2021.05</span>
+<span class="text-text-secondary">SEOUL</span>
+</div>
+<p class="font-bold text-primary">아틀리에 모노 (Atelier Mono)</p>
+<p class="text-text-secondary">그래픽 &amp; 에디토리얼 디자이너</p>
+</li>
+</ul>
+</div>
+<!-- Certification Track -->
+<div class="space-y-4">
+<h4 class="font-label-caps text-label-caps uppercase tracking-widest text-primary font-bold pb-2 border-b border-border-hairline">
+              CERTIFICATIONS &amp; HONORS
+            </h4>
+<ul class="space-y-4 font-body-sm text-body-sm">
+<li class="space-y-1">
+<span class="text-secondary font-label-meta text-label-meta block">2025.10</span>
+<p class="font-bold text-primary">GTQi 그래픽기술자격 1급</p>
+<p class="text-text-secondary">한국생산성본부 (KPC)</p>
+</li>
+<li class="space-y-1 pt-2 border-t border-border-hairline/50">
+<span class="text-secondary font-label-meta text-label-meta block">2023.08</span>
+<p class="font-bold text-primary">시각디자인기사</p>
+<p class="text-text-secondary">한국산업인력공단</p>
+</li>
+<li class="space-y-1 pt-2 border-t border-border-hairline/50">
+<span class="text-secondary font-label-meta text-label-meta block">2022.04</span>
+<p class="font-bold text-primary">ACA Premiere &amp; After Effects Professional</p>
+<p class="text-text-secondary">Adobe Certified Associate</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================ -->
+<!-- 5. CONTACT & INVITATION CALLOUT (#contact)                   -->
+<!-- ============================================================ -->
+<section class="w-full bg-dark-canvas text-inverse-on-surface px-margin-mobile md:px-margin py-space-2xl" id="contact">
+<div class="flex flex-col justify-between min-h-[580px]">
+<!-- Top Line -->
+<div class="flex items-center justify-between pb-space-lg border-b border-dark-border">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed">
+          04 • COMMISSIONS &amp; DIALOGUE
+        </span>
+<span class="font-label-meta text-label-meta uppercase tracking-widest text-dark-text-muted">
+          STATUS: OPEN FOR NEW VENTURES
+        </span>
+</div>
+<!-- Giant Invitation Block -->
+<div class="py-space-xl">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted block mb-4">
+          START A CONVERSATION
+        </span>
+<h2 class="font-display-hero text-headline-xl md:text-display-hero font-bold tracking-tighter uppercase text-inverse-on-surface leading-none">
+          LET'S WORK<br>TOGETHER.
+        </h2>
+<p class="font-headline-md text-headline-md text-secondary-fixed mt-6 font-medium">
+          새로운 프로젝트와 가치 있는 협업을 기다립니다.
+        </p>
+</div>
+<!-- Email Direct Call to Action -->
+<div class="pt-space-lg border-t border-dark-border flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted block mb-2">
+            DIRECT EMAIL
+          </span>
+<a class="group inline-flex items-center gap-3 font-headline-md text-headline-md text-inverse-on-surface hover:text-secondary-fixed transition-colors underline underline-offset-8 decoration-1 decoration-dark-border" href="mailto:gildong.hong@designatelier.kr">
+<span>gildong.hong@designatelier.kr</span>
+<span class="transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">↗</span>
+</a>
+</div>
+<div class="flex flex-wrap items-center gap-6">
+<div class="space-y-1">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted block">LOCATION</span>
+<p class="font-body-sm text-body-sm text-inverse-on-surface">Seoul, Korea • Worldwide Remote</p>
+</div>
+<a class="px-6 py-3 rounded-full bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-widest hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all duration-300" href="#home">
+            BACK TO TOP ↑
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================ -->
+<!-- 6. BESPOKE EDITORIAL PROJECT DETAIL MODAL                    -->
+<!-- Faithful to the user's reference image layout                -->
+<!-- ============================================================ -->
+<div aria-hidden="true" aria-modal="true" class="fixed inset-0 z-50 hidden bg-primary/70 backdrop-blur-md flex items-center justify-center p-4 md:p-8 transition-opacity duration-300" id="project-modal" role="dialog">
+<!-- Modal Dialog Sheet -->
+<div class="relative w-full max-w-5xl bg-surface p-6 md:p-12 border border-border-hairline shadow-2xl max-h-[92vh] overflow-y-auto">
+<!-- Close Button (Top-Right) -->
+<button aria-label="Close project modal" class="absolute top-6 right-6 md:top-8 md:right-8 text-primary hover:text-secondary p-2 transition-colors" onclick="closeProjectModal()" type="button">
+<span class="material-symbols-outlined text-[32px]">close</span>
+</button>
+<!-- Modal Header Meta & Title (Matching Reference Image) -->
+<div class="pb-8">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary block mb-2" id="modal-eyebrow">
+          시리즈 책 / 2026.05
+        </span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl font-bold tracking-tight text-primary uppercase" id="modal-title">
+          2027 UNION 엑스칼리버 시리즈
+        </h2>
+</div>
+<!-- 2x2 Image Monograph Gallery Grid (Exact Layout from Reference Image) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pb-10">
+<!-- Frame 1 -->
+<div class="relative aspect-[4/3] bg-surface-container overflow-hidden border border-border-hairline">
+<div class="w-full h-full bg-cover bg-center" data-alt="Editorial photograph of hard-bound blue book cover with vintage Joseon Dynasty regional boundary map, printed Korean typography, pristine monograph lighting" id="modal-img-1" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDIMOB0pBFkPwgiHbG4g1rC2zyhccEYIWIBKbKTEWzi5eql_prjJgYpywC8T_Hxbkrl0rrGoQHEGj9Yll9dflC8UJuOxk0daGzbi5w7Gzb_OMSa2CjvkS30tjmLfFCvJWa3RI2rT_8Mt63bmXJRE8hatsy7M48dxjqic3zMgpbm3HNQ6T9TSAPv5YwfgXi7gItLwTI4hLs8xiME8W-kr9CM3b32AM37_cdWb3eyjXw')">
+</div>
+</div>
+<!-- Frame 2 -->
+<div class="relative aspect-[4/3] bg-surface-container overflow-hidden border border-border-hairline">
+<div class="w-full h-full bg-cover bg-center" data-alt="Monograph series book open spread showing delicate editorial typography, clean margins, high quality beige printing paper, archival layout system" id="modal-img-2" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDnMVCrhAbJ4KL7qINhD6M1owpMXEdW_ZI27jIq1tLyFcJLo-Lz1EM22AANcbo_sX_lX7yRa63IFcSIltj2mmA9W82DsqcLi1lx-bIru4l6CYrG92zHMgTvff8c7jFE5dFPZwLAK7oqePmHqlryS6G_AZrRNNem_yg-rjyUPFCwLcxZCMK4QQAikmMq0Sr7pg7DoPzaxRH4yD-aipa1mt28VZQ_6crjUNWhlLWjVYs')">
+</div>
+</div>
+<!-- Frame 3 -->
+<div class="relative aspect-[4/3] bg-surface-container overflow-hidden border border-border-hairline">
+<div class="w-full h-full bg-cover bg-center" data-alt="Close-up detail of book spine embossed gold leaf lettering, fine binding thread, natural lighting on museum display plinth" id="modal-img-3" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAzX6angicGw0Da-qtJzPIq_-C4x6VxzZO6icqOtRMmqSXyA0HHvVtxtxiyeOPeckQricGGGbOZrC8045Q-ettU-vHHLPfK-hBt1rHQ3Yw3kYdhNkEvzmfWvKbvM6jLhat3vWJtWfTK9Wly31e1ftAuk0A7WgVuQil1yXP1ZgBoyEFIz2jidVKBak6jFKfkD-eo0st-cVZoBZjWRo3HY2RReA8iOp0XQZSIGWIDntY')">
+</div>
+</div>
+<!-- Frame 4 -->
+<div class="relative aspect-[4/3] bg-surface-container overflow-hidden border border-border-hairline">
+<div class="w-full h-full bg-cover bg-center" data-alt="Multiple book copies of the historical series arranged in geometric grid pattern on raw concrete surface, stark shadows, editorial design magazine view" id="modal-img-4" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDmRvW-DjFyLcsMo9qHiw1lkddVPsJoRQqMh810MiOjTFFwhGsiq9_WtSV4SX2NJUm6IIyHT4nbX6Tl4tayyTqxi6gdnlTexSgEy5HViRd4iSdy4RV-Do0pdLQh_GI9Aan9ii-6Lg-lIDvzPWIGCDd42SqiDhBw_VCMxOMl49VEPgdG1sk-3TfBB10x2QNxy7G-o1anPOxr_1fO0uor_CWIij3NekijJBtAn4Lctkc')">
+</div>
+</div>
+</div>
+<!-- PROJECT INFORMATION & TOOLS (Bottom Metadata Grid from Reference) -->
+<div class="pt-6 border-t border-border-hairline grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+<div class="md:col-span-8 space-y-4">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-primary font-bold block">
+            PROJECT INFORMATION
+          </span>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+<div>
+<span class="font-label-meta text-label-meta text-text-secondary block">담당 업무</span>
+<p class="font-body-md text-body-md text-primary font-medium mt-1" id="modal-role">
+                표지 디자인 • 내지 편집 • 레이아웃
+              </p>
+</div>
+<div>
+<span class="font-label-meta text-label-meta text-text-secondary block">클라이언트</span>
+<p class="font-body-md text-body-md text-primary font-medium mt-1" id="modal-client">
+                유니온 출판사 / 연구소
+              </p>
+</div>
+<div>
+<span class="font-label-meta text-label-meta text-text-secondary block">제작 연도</span>
+<p class="font-body-md text-body-md text-primary font-medium mt-1" id="modal-period">
+                2025.08 – 2026.05
+              </p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary pt-3 leading-relaxed" id="modal-desc">
+            고지도와 역사 문헌의 방대한 텍스트를 현대적 감각의 그리드 시스템으로 재해석하여 정보의 위계를 재정의한 시리즈물입니다.
+          </p>
+</div>
+<div class="md:col-span-4 space-y-4 md:border-l md:border-border-hairline md:pl-8">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-primary font-bold block">
+            TOOLS
+          </span>
+<p class="font-body-md text-body-md text-text-secondary" id="modal-tools">
+            Illustrator • Photoshop • InDesign • hwp(한글)
+          </p>
+<div class="pt-2">
+<span class="inline-block px-3 py-1 bg-surface-container text-secondary font-label-caps text-label-caps uppercase tracking-wider rounded">
+              VERIFIED ARCHIVE
+            </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Inline Vanilla Interaction Logic -->
+<script>
+    // Project Data for Modal Showcase
+    const projectData = {
+      lumen: {
+        eyebrow: "브랜드 필름 & 아이덴티티 / 2026.04",
+        title: "2026 LUMEN 브랜드 필름 & 아이덴티티",
+        role: "크리에이티브 디렉션 · 모션 디자인 · 사운드 믹싱",
+        client: "LUMEN Audio Systems",
+        period: "2026.01 – 2026.04",
+        tools: "After Effects · Premiere Pro · Cinema 4D · Figma",
+        desc: "미래형 음향 브랜드 LUMEN의 론칭을 위한 플래그십 비주얼 필름 및 인터랙티브 모션 아이덴티티 시스템을 총괄 기획·제작했습니다."
+      },
+      atelier: {
+        eyebrow: "비주얼 아이덴티티 / 2026.02",
+        title: "아틀리에 베르그 (Atelier Berg) 시각 브랜딩",
+        role: "브랜드 전략 · 로고타입 디렉션 · 어플리케이션 시스템",
+        client: "Atelier Berg Architectural Studio",
+        period: "2025.10 – 2026.02",
+        tools: "Illustrator · Photoshop · InDesign",
+        desc: "스위스 알프스의 견고한 미학에서 영감을 받은 건축 스튜디오를 위해 절제된 타이포그래피와 자연 소재를 결합한 브랜드 경험을 완성했습니다."
+      },
+      joseon: {
+        eyebrow: "기록 도서 편집 / 2025.11",
+        title: "조선왕조 궁중의례 아카이브 북",
+        role: "표지 디자인 · 고문서 디지털 복원 · 본문 레이아웃",
+        client: "전통문화연구재단",
+        period: "2025.07 – 2025.11",
+        tools: "Photoshop · Illustrator · InDesign",
+        desc: "수백 년 역사의 궁중 의례도를 현대 독자가 직관적으로 감상할 수 있도록 정교한 타이포그래픽 여백과 컬러 인덱스를 적용했습니다."
+      },
+      excalibur: {
+        eyebrow: "시리즈 책 / 2026.05",
+        title: "2027 UNION 엑스칼리버 시리즈",
+        role: "표지 디자인 · 내지 편집 · 레이아웃",
+        client: "유니온 출판사 / 연구소",
+        period: "2025.08 – 2026.05",
+        tools: "hwp(한글) · Illustrator · Photoshop",
+        desc: "방대한 역사 연구 사료와 고지도를 바탕으로 웅장한 코발트 블루 컬러와 절제된 폰트 조판을 결합한 3권 1세트 아카이브 시리즈입니다."
+      },
+      space: {
+        eyebrow: "건축 매거진 / 2025.05",
+        title: "공간과 형태: 건축 에디토리얼",
+        role: "아트 디렉션 · 포토 큐레이션 · 편집 그리드",
+        client: "월간 공간 건축 포럼",
+        period: "2025.02 – 2025.05",
+        tools: "InDesign · Photoshop · Lightroom",
+        desc: "콘크리트 구조물의 텍스처와 빛의 조응을 12컬럼의 스위스 그리드로 환원해 시각적 침묵을 연출한 독립 건축 무크지입니다."
+      },
+      kinetic: {
+        eyebrow: "실험 포스터 아트 / 2025.03",
+        title: "KINETIC RESONANCE 모션 포스터",
+        role: "모션 그래픽스 · 타이포그래피 실험 · 사운드 싱크",
+        client: "Seoul Graphic Design Week",
+        period: "2025.01 – 2025.03",
+        tools: "After Effects · Cinema 4D · Illustrator",
+        desc: "유동적인 메탈릭 타이포그래피와 키네틱 리듬을 활용하여 관객의 인터랙션에 반응하는 실험적 디지털 포스터 전시작입니다."
+      }
+    };
+
+    // Modal Control Functions
+    function openProjectModal(key) {
+      const data = projectData[key] || projectData.excalibur;
+      document.getElementById('modal-eyebrow').innerText = data.eyebrow;
+      document.getElementById('modal-title').innerText = data.title;
+      document.getElementById('modal-role').innerText = data.role;
+      document.getElementById('modal-client').innerText = data.client;
+      document.getElementById('modal-period').innerText = data.period;
+      document.getElementById('modal-tools').innerText = data.tools;
+      document.getElementById('modal-desc').innerText = data.desc;
+
+      const modal = document.getElementById('project-modal');
+      modal.classList.remove('hidden');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProjectModal() {
+      const modal = document.getElementById('project-modal');
+      modal.classList.add('hidden');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    // Close on backdrop click & ESC key
+    document.getElementById('project-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeProjectModal();
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeProjectModal();
+      }
+    });
+
+    // Works Filter Pills
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface', 'text-on-surface');
+        });
+        btn.classList.add('bg-primary', 'text-on-primary');
+        btn.classList.remove('bg-surface', 'text-on-surface');
+
+        const filter = btn.getAttribute('data-filter');
+        projectCards.forEach(card => {
+          const category = card.getAttribute('data-category') || '';
+          if (filter === 'all' || category.includes(filter)) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-dark-canvas text-inverse-on-surface"><div class="w-full px-margin-mobile md:px-margin pt-space-2xl pb-space-xl flex flex-col justify-between min-h-[540px]"><div><div class="flex items-center justify-between pb-space-lg"><span class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted">Edition 2025 / Portfolio</span><a class="inline-flex items-center gap-2 font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted hover:text-inverse-on-surface transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">north</span>Back to top</a></div><div class="py-space-lg"><h2 class="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero font-bold tracking-tighter uppercase text-inverse-on-surface">Let's work together.</h2></div></div><div class="pt-space-xl flex flex-col lg:flex-row lg:items-end justify-between gap-12"><div class="space-y-3"><p class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted">Direct Inquiries</p><a class="inline-block font-headline-md text-headline-md text-inverse-on-surface hover:text-secondary-fixed transition-colors underline underline-offset-8 decoration-1 decoration-dark-border" href="mailto:hello@honggildong.com">hello@honggildong.com</a></div><div class="grid grid-cols-2 sm:grid-cols-4 gap-8 lg:gap-12"><div class="space-y-2"><p class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted">Studio</p><p class="font-body-sm text-body-sm text-inverse-on-surface">Seoul, South Korea</p><p class="font-body-sm text-body-sm text-dark-text-muted">KST (UTC+9)</p></div><div class="space-y-2"><p class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted">Social</p><a class="block font-body-sm text-body-sm text-inverse-on-surface hover:text-secondary-fixed transition-colors" href="#">Instagram</a><a class="block font-body-sm text-body-sm text-inverse-on-surface hover:text-secondary-fixed transition-colors" href="#">Behance</a></div><div class="space-y-2"><p class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted">Network</p><a class="block font-body-sm text-body-sm text-inverse-on-surface hover:text-secondary-fixed transition-colors" href="#">LinkedIn</a><a class="block font-body-sm text-body-sm text-inverse-on-surface hover:text-secondary-fixed transition-colors" href="#">ReadCV</a></div><div class="space-y-2"><p class="font-label-caps text-label-caps uppercase tracking-widest text-dark-text-muted">Typography</p><p class="font-body-sm text-body-sm text-inverse-on-surface">Space Grotesk</p><p class="font-body-sm text-body-sm text-dark-text-muted">Inter / Pretendard</p></div></div></div><div class="pt-space-xl flex flex-col sm:flex-row items-baseline justify-between gap-4"><p class="font-body-sm text-body-sm text-dark-text-muted">© 2025 Hong Gil Dong. All rights reserved. Crafted with architectural discipline.</p><p class="font-label-meta text-label-meta uppercase tracking-widest text-dark-text-muted">37.5665° N, 126.9780° E</p></div></div></footer>
+
+</body></html>

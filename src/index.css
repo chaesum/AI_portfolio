@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fbf9f4;
+  --color-surface-bright: #fbf9f4;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3ee;
+  --color-surface-container: #f0eee9;
+  --color-surface-container-high: #eae8e3;
+  --color-surface-container-highest: #e4e2dd;
+  --color-surface-dim: #dcdad5;
+  --color-primary: #060905;
+  --color-primary-container: #1d211b;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #858980;
+  --color-secondary: #5b623b;
+  --color-secondary-container: #dde4b3;
+  --color-secondary-fixed: #e0e7b6;
+  --color-secondary-fixed-dim: #c4cb9c;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #181e01;
+  --color-on-surface: #1b1c19;
+  --color-on-surface-variant: #454842;
+  --color-text-primary: #171717;
+  --color-text-secondary: #77746e;
+  --color-border-hairline: #d8d6cf;
+  --color-dark-canvas: #1d211b;
+  --color-dark-canvas-surface: #252b23;
+  --color-dark-border: #2e352b;
+  --color-dark-text-muted: #a29f98;
+  --color-inverse-on-surface: #f2f1ec;
+  --color-accent-rust: #ba5b43;
+
+  --font-display: "Archivo", "Plus Jakarta Sans", "Noto Sans KR", sans-serif;
+  --font-sans: "DM Sans", "Plus Jakarta Sans", "Noto Sans KR", sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-family: var(--font-sans);
+    overscroll-behavior: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
